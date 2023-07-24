@@ -1,6 +1,6 @@
 import requests
 
-# Replace 'your_api_key' with your actual API key from OpenWeatherMap
+
 API_KEY = "863f690dd8dc60142c4a1423a30715ba"
 BASE_URL = 'https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22'
 
