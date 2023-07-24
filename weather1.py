@@ -2,7 +2,7 @@ import requests
 
 
 API_KEY = "863f690dd8dc60142c4a1423a30715ba"
-BASE_URL = 'https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22'
+BASE_URL = 'https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&appid=b6907d289e10d714a6e88b30761fae22'
 
 def get_weather_data(city):
     url = f"{BASE_URL}?q={city}&appid={API_KEY}"
